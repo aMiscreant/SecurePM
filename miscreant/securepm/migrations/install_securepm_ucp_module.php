@@ -10,7 +10,7 @@ class install_securepm_ucp_module extends \phpbb\db\migration\migration
                 'ucp',
                 'UCP_PROFILE',
                 [
-                    'module_basename' => '\\aMiscreant\\SecurePM\\ucp\\ucp_securepm_module',
+                    'module_basename' => '\\miscreant\\securepm\\ucp\\ucp_securepm_module',
                     'modes' => ['settings'],
                 ]
             ]],
