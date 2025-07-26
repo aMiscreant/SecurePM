@@ -1,0 +1,14 @@
+<!-- INCLUDE ucp_header.html -->
+
+<h2>{L_UCP_SECUREPM_TITLE}</h2>
+<p>{L_UCP_SECUREPM_DESC}</p>
+
+<form method="post" action="{U_ACTION}">
+    <fieldset>
+        <legend>GPG Key Management</legend>
+        <input type="submit" name="generate_key" value="Generate GPG Key (4096-bit RSA)" class="button1" />
+    </fieldset>
+    {S_FORM_TOKEN}
+</form>
+
+<!-- INCLUDE ucp_footer.html -->
