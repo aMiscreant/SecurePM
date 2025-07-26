@@ -1,5 +1,5 @@
 <?php
-namespace aMiscreant\SecurePM\migrations;
+namespace miscreant\securepm\migrations;
 
 class install_securepm_ucp_module extends \phpbb\db\migration\migration
 {
